@@ -1,0 +1,548 @@
+/****************************HTML & BODY**************************************/
+html,body {
+background-color: #ffcd2a;
+height: 100%;
+min-height: 500px;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Chilanka', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Luckiest Guy', cursive;
+
+}
+
+/****************************HEADER**************************************/
+header{
+   
+   
+    width: 100%;
+    height: 12%;
+    background-color: #ff4400;
+    
+    align-items: center;
+    display:flex ;
+    justify-content:space-between;
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5);
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5);
+     z-index: 100;
+     position: relative;
+     
+    
+}
+header #logo{
+   margin-left: 3em;
+
+}
+header #logo p {
+    
+    text-shadow: 2px 0 0 #ffcd2a, -2px 0 0 #ffcd2a, 0 2px 0 #ffcd2a, 0 -2px 0 #ffcd2a, 1px 1px #ffcd2a, -1px -1px 0 #ffcd2a, 1px -1px 0 #ffcd2a, -1px 1px 0 #ffcd2a;
+    color: #ff003c;
+    font-size: 60px;
+}
+header nav{   
+    
+    
+    width: 60%;
+
+}
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+   
+}
+nav ul li{
+  
+    text-decoration-style: none;
+    display: inline-block;
+    margin: 0 2.5%;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#ffcd2a;
+    font-size: 24px;
+}
+
+
+/****************************MAIN CONTAINER**************************************/
+#container{
+    width: 100%;
+    height: 76%;
+    margin: auto;
+    z-index: 50;
+    position: relative;
+    
+ 
+}
+
+/****************************GAME SECTION**************************************/
+section#game{
+   
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;  
+ /*   background-color: #ffcd2a;*/
+  
+    
+}
+/*
+#game{
+    
+    
+    height: 100%;
+    vertical-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+*/
+
+section table{
+    height:25em;
+    width: 25em;
+    
+}
+
+section table td {
+    width: 3em;
+    height: 3em;
+    margin: 0.5em;
+    text-align: center;
+    background-color: #ff003c;
+    font-size: 40px;
+    color:#ffcd2a;
+   
+
+
+}
+
+/****************************STATS SECTION**************************************/
+#stats{
+ /* display: flex;*/
+    width: 20%;
+    height: 100%;
+    float: right;
+    background-color: #ff003c;
+  /*  justify-content: center;*/
+ 
+
+
+
+
+ 
+}
+#stats h3{
+
+    text-shadow: 2px 0 0 #ffcd2a, -2px 0 0 #ffcd2a, 0 2px 0 #ffcd2a, 0 -2px 0 #ffcd2a, 1px 1px #ffcd2a, -1px -1px 0 #ffcd2a, 1px -1px 0 #ffcd2a, -1px 1px 0 #ffcd2a;
+    color: #ff003c;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#stats .player-info{
+  
+    width: 90%;
+    margin: 10px auto;
+    background-color:#ffcd2a; 
+    text-align: center;
+  
+    border-radius: 20px;
+
+    
+
+}
+.player-info p{
+    border:10px solid red;
+    border-radius: 20px;
+    padding: 0;
+    color:#ff4400;
+    text-align: center;
+    border:none;
+    display: inline-block;
+    width: 25%
+
+}
+/****************************game button**************************************/
+#stats #button{
+
+    height: 3em;
+    width: 3em;
+    margin-top:10%;
+    text-shadow: 2px 0 0 #ffcd2a, -2px 0 0 #ffcd2a, 0 2px 0 #ffcd2a, 0 -2px 0 #ffcd2a, 1px 1px #ffcd2a, -1px -1px 0 #ffcd2a, 1px -1px 0 #ffcd2a, -1px 1px 0 #ffcd2a;
+    color: #ff003c;
+    font-size: 2.5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+
+    border-radius: 50%;
+    text-decoration: none;
+
+    background-color: #ff4400;
+   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0,0.5);
+   -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0,0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0,0.5);
+
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+
+
+}
+#stats #button:active{
+    height: 2.9em;
+    width: 2.9em;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5);
+     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5)
+
+}
+
+
+
+/****************************FOOTER**************************************/
+
+footer{
+    width: 100%;
+    height: 12%;
+    background-color: #ff4400;
+    
+    align-items: center;
+    display:flex ;
+    justify-content:center;
+
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0,0.5);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0,0.5);
+     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0,0.5);
+     z-index: 99;
+     position: relative;
+
+}
+
+footer div 
+{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 33%;
+    height: 80%;
+}
+
+footer div h4{
+    text-shadow: 2px 0 0 #ffcd2a, -2px 0 0 #ffcd2a, 0 2px 0 #ffcd2a, 0 -2px 0 #ffcd2a, 1px 1px #ffcd2a, -1px -1px 0 #ffcd2a, 1px -1px 0 #ffcd2a, -1px 1px 0 #ffcd2a;
+    color: #ff003c;
+    margin: 0 ;
+    padding: 0;
+    display: inline-block;
+}
+
+footer ul {
+
+    font-size: 13px;
+    color:#ffcd2a;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+ 
+   
+
+}
+
+footer div ul li{
+    text-decoration-style: none;
+  
+}
+footer div ul li p{
+    
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px){
+
+/****************************HEADER**************************************/
+
+
+    header{
+   
+   
+        width: 100%;
+        height: auto;
+       
+        
+        align-items: center;
+        display:block;
+        justify-content:space-between;
+        text-align: center;
+    
+        
+       
+      
+         
+        
+    }
+    header #logo{
+       margin:auto;
+    
+    }
+    header #logo p {
+        
+        text-shadow: 2px 0 0 #ffcd2a, -2px 0 0 #ffcd2a, 0 2px 0 #ffcd2a, 0 -2px 0 #ffcd2a, 1px 1px #ffcd2a, -1px -1px 0 #ffcd2a, 1px -1px 0 #ffcd2a, -1px 1px 0 #ffcd2a;
+        color: #ff003c;
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+    }
+    header nav{   
+        
+        
+        width: 100%;
+         margin: 0 auto;
+    
+    }
+    
+    
+    nav ul{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        
+        display: none;
+       
+       
+    }
+    nav ul li{
+      
+        text-decoration-style: none;
+       
+        display: block;
+        margin: 2.5% 2.5%;
+    }
+  
+
+    /****************************MAIN CONTAINER**************************************/
+#container{
+    width: 100%;
+    height:70%;
+    margin: auto;
+    z-index: 50;
+    position: relative;
+ 
+}
+
+/****************************GAME SECTION**************************************/
+section#game{
+   
+    
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+
+  
+    
+}
+/*
+#game{
+    
+    
+    height: 100%;
+    vertical-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+*/
+
+section table{
+    height:15em;
+    width: 15em;
+   
+    
+}
+
+section table td {
+   /* width: 3em;
+    height: 3em;*/
+    /*margin: 0.5em;*/
+    text-align: center;
+    background-color: #ff003c;
+    font-size: 20px;
+    color:#ffcd2a;
+   
+
+
+}
+
+/****************************STATS SECTION**************************************/
+#stats{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #ff003c;
+
+ 
+ 
+
+
+
+
+ 
+}
+#info{
+    width: 80%;
+    display:block;
+    margin: 0 auto;
+    /*margin-left: 4em;*/
+}
+#stats h3{
+
+    text-shadow: 2px 0 0 #ffcd2a, -2px 0 0 #ffcd2a, 0 2px 0 #ffcd2a, 0 -2px 0 #ffcd2a, 1px 1px #ffcd2a, -1px -1px 0 #ffcd2a, 1px -1px 0 #ffcd2a, -1px 1px 0 #ffcd2a;
+    color: #ff003c;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#stats .player-info{
+  
+    width: 100%;
+    margin: 10px auto;
+    background-color:#ffcd2a; 
+    text-align: center;
+  
+    border-radius: 20px;
+
+    
+
+}
+.player-info p{
+    
+    border-radius: 20px;
+    padding: 0;
+    color:#ff4400;
+    text-align: center;
+   
+    display: inline-block;
+    
+
+}
+/****************************game button**************************************/
+#stats #button{
+
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+   /* margin-right: 2em;*/
+
+   border-radius: 5px;
+ 
+    font-size: 3em;
+    text-align: center;
+  
+    padding: 0;
+    
+    display: block;
+
+    margin-bottom: 3em;
+ 
+      
+
+
+
+ 
+
+}
+#stats #button p {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+#stats #button:active{
+    
+    width: 78%;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5);
+     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5)
+
+}
+
+
+
+
+/****************************FOOTER**************************************/
+
+footer{
+    
+    height: auto;
+   /* position: fixed;*/
+    bottom:0;
+
+}
+
+footer div 
+{ 
+    
+    width: auto;
+    height: auto;
+}
+
+
+
+footer ul {
+
+    font-size: 23px;
+    
+
+}
+
+
+   
+#more{
+    display:none;
+}
+
+#proyects{
+    display:none;
+}
+
+
+}
+
