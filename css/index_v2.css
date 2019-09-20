@@ -547,7 +547,7 @@ section table td {
 
     border-radius: 20px;
     width: 80%;
-    height: auto;
+    height: 1.2em;
     margin: 0 auto;
     border-radius: 5px;
     font-size: 20px;
@@ -568,8 +568,8 @@ section table td {
 #stats #button:active{
     
     width: 78%;
-    font-size: 18px;
-    height: auto;
+    font-size: 20px;
+    height: 1.2em;
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5);
     -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5);
      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5)
