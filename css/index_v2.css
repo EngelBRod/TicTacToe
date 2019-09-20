@@ -586,9 +586,9 @@ footer{
     height: auto;
     bottom:0;
    
-    -webkit-box-shadow: 0px -7px 12px 0px rgba(0, 0, 0,0.5);
-    -moz-box-shadow: 0px -7px 12px 0px rgba(0, 0, 0,0.5);
-     box-shadow: 0px -7px 12px 0px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 0px -0px 0px 0px rgba(0, 0, 0,0.5);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5);
+     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0,0.5);
 }
 
 
@@ -603,6 +603,7 @@ footer div
 footer div h4{
     font-size:15px;
     width: 35%;
+    text-align: center;
 }
 
 
@@ -611,6 +612,11 @@ footer ul {
 
     font-size: 10px;
     width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
     
 
 }
