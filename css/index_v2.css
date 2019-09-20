@@ -385,6 +385,13 @@ footer div ul li p{
 
 @media only screen and (max-width: 768px){
 
+    html,body {
+        
+        min-height: auto;
+        
+        
+        }
+
 /****************************HEADER**************************************/
 
 
